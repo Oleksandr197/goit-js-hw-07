@@ -7,6 +7,7 @@
   margin-left: 30px;
 }
 .gallery {
+  margin-top: 30px;
   list-style: none;
   display: flex;
   width: 1200px;
@@ -14,7 +15,9 @@
   margin-right: auto;
   justify-content: space-around;
 }
-
+#name-input {
+  margin-top: 30px;
+}
 #validation-input {
   border: 3px solid #bdbdbd;
   outline: none;
@@ -26,4 +29,9 @@
 
 #validation-input.invalid {
   border-color: #f44336;
+}
+
+#font-size-control {
+  margin-top: 30px;
+  display: flex;
 }
